@@ -15,19 +15,18 @@
 	font-size: 15px;
 }
 #header .logo {
-  border: 1px solid black;
+  border: 1px solid yellow;
 	width: 100%;
   height: 40%;
 	text-align: center;
 	position: absolute;
-  display: flex; 
+  display: flex;                 
 	top:25%;
 	z-index: -1;
   margin-left:15px ;
 }
 
 #header .logo img {
-	/* width: 100%; */
   height: 25px;
   margin-left: 20px;
 }
@@ -38,17 +37,9 @@
   width: 120px;
   border-radius: 30px;
   border:1px solid lightblue;
-  position: relative; 
   display: inline-block;
   color: lightblue;
 }		
-  /*左邊圖示*/
-/* .inputWithin input img { 
-  position: absolute; 			
-  left: 3px;
-  top: calc(50% - 0.5em);
-} */
-
 
 
 
@@ -64,6 +55,10 @@
   top: 60px;
 }
 
+#sidebar a {
+  text-decoration:none;
+  color: black;
+}
 
 /* content------------------------ */
 #content {
