@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="./css/style.css">
   <!-- font awesome -->
   <link rel="stylesheet" href="./css/all.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,56 +39,64 @@
   </div>
   <!-- 側邊攔 -->
   <div id="sidebar" >
-    <div id="menu">
-      <ul>
-        <li><i class="fa-solid fa-house"></i>首頁</li>
-        <li>Shorts</li>
-        <li>訂閱內容</li>
-        <hr>
-        <li>媒體庫</li>
-        <li><i class="fa-solid fa-clock-rotate-left"></i>觀看紀錄</li>
-        <hr>
-        <li>登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</li>
-        <li><i class="fa-regular fa-circle-user"  style="color: lightskyblue;"></i><input type="button" value="登入"></li>
-        <hr>
-        <h4>探索</h4>
-        <li><i class="fa-solid fa-fire"  style="color: #000000;"></i>發燒影片</li>
-        <li><i class="fa-solid fa-music"  style="color: #000000;"></i>音樂</li>
-        <li><i class="fa-solid fa-clapperboard"  style="color: #000000;"></i>電影</li>
-        <li><i class="fa-solid fa-satellite-dish"  style="color: #000000;"></i>直播</li>
-        <li><i class="fa-solid fa-gamepad"  style="color: #000000;"></i>遊戲</li>
-        <li><i class="fa-regular fa-newspaper"  style="color: #000000;"></i>新聞</li>
-        <li><i class="fa-solid fa-trophy"  style="color: #000000;"></i>體育</li>
-        <li><i class="fa-solid fa-podcast" v style="color: #000000;"></i>Podcast</li>
-        <hr>
-        <li><i class="fa-solid fa-circle-plus"  style="color: #000000;"></i>瀏覽頻道</li>
-        <hr>
-        <h4>更多 YouTube 功能</h4>
-        <li><i class="fa-brands fa-youtube"  style="color: #000000;"></i>YouTube Premium</li>
-        <li><i class="fa-brands fa-youtube"  style="color: #000000;"></i>YouTube Music</li>
-        <li><i class="fa-brands fa-youtube"  style="color: #000000;"></i>YouTube Kid</li>
-        <hr>
-        <li><i class="fa-solid fa-gear"  style="color: #000000;"></i>設定</li>
-        <li><i class="fa-regular fa-flag"  style="color: #000000;"></i>檢舉紀錄</li>
-        <li><i class="fa-solid fa-circle-question" style="color: #000000;"></i>說明</li>
-        <li><i class="fa-regular fa-message" style="color: #000000;"></i>提供意見</li>
-        <hr>
-      </ul>
-    </div>
-    <a href="" >簡介</a>
-    <a href="">媒體</a>
-    <a href="">版權</a>
-    <a href="">與我們聯絡</a>
-    <a href="">創作者</a>
-    <a href="">廣告</a>
-    <a href="">開發人員</a>
-    <br>
-    <a href="">條款</a>
-    <a href="">隱私權</a>
-    <a href="">政策與安全性</a>
-    <a href="">Youtube 運作方式</a>
-    <a href="">測試新功能</a>
-    <div class="copyright"> &copy; 2023 Google LLC</div>
+      <div id="menu">
+        <ul>
+          <li><i class="fa-solid fa-house"></i>首頁</li>
+          <li><i class="fa-brands fa-youtube"></i>Shorts</li>
+          <li><i class="fa-brands fa-youtube"></i>訂閱內容</li>
+          <div class="line"></div>
+          <li><i class="fa-brands fa-youtube"></i>媒體庫</li>
+          <li><i class="fa-solid fa-clock-rotate-left"></i>觀看紀錄</li>
+          <div class="line"></div>
+        </ul>
+
+        <div class="s-login">
+          <p>登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</p>
+          <a href="#"><i class="fa-regular fa-circle-user"  style="color: lightskyblue;"></i>登入</a>
+        </div>
+
+        <ul>
+          <div class="line"></div>
+          <h1>探索</h1>
+          <li><i class="fa-solid fa-fire"></i>發燒影片</li>
+          <li><i class="fa-solid fa-music"></i>音樂</li>
+          <li><i class="fa-solid fa-clapperboard"></i>電影</li>
+          <li><i class="fa-solid fa-satellite-dish"></i>直播</li>
+          <li><i class="fa-solid fa-gamepad"></i>遊戲</li>
+          <li><i class="fa-regular fa-newspaper"></i>新聞</li>
+          <li><i class="fa-solid fa-trophy"></i>體育</li>
+          <li><i class="fa-solid fa-podcast"></i>Podcast</li>
+          <div class="line"></div>
+          <li><i class="fa-solid fa-circle-plus"></i>瀏覽頻道</li>
+          <div class="line"></div>
+          <h1>更多 YouTube 功能</h1>
+          <li><i class="fa-brands fa-youtube"  style="color: #ff0000;"></i>YouTube Premium</li>
+          <li><i class="fa-brands fa-youtube"  style="color: #ff0000;"></i>YouTube Music</li>
+          <li><i class="fa-brands fa-youtube"  style="color: #ff0000;"></i>YouTube Kid</li>
+          <div class="line"></div>
+          <li><i class="fa-solid fa-gear"></i>設定</li>
+          <li><i class="fa-regular fa-flag"></i>檢舉紀錄</li>
+          <li><i class="fa-solid fa-circle-question"></i>說明</li>
+          <li><i class="fa-regular fa-message"></i>提供意見</li>
+          <div class="line"></div>
+        </ul>
+        <div>
+          <a href="" >簡介</a>
+          <a href="">媒體</a>
+          <a href="">版權</a>
+          <a href="">與我們聯絡</a>
+          <a href="">創作者</a>
+          <a href="">廣告</a>
+          <a href="">開發人員</a>
+          <br><br>
+          <a href="">條款</a>
+          <a href="">隱私權</a>
+          <a href="">政策與安全性</a>
+          <a href="">Youtube 運作方式</a>
+          <a href="">測試新功能</a>
+          <div class="copyright"> &copy; 2023 Google LLC</div>
+        </div>
+      </div>
   </div>
 
   <!-- 內容 -->
