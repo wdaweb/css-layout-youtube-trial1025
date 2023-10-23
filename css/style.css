@@ -253,6 +253,8 @@
   margin-top: 60px;
   /* background: rgb(59, 131, 59); */
   border: 1px solid  salmon;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 00;
 }
 
 /* 上方按鈕 */
@@ -278,41 +280,74 @@
 
 .box{
   height: 340px;
-  width: 98%;
+  width: 99%;
   border: #1fbb25 1px solid;
   display: flex;
   /* flex-direction: row-reverse; */
   margin: 16px;
   display: flex;
   flex-direction: reverse;
+  margin: 0
 }
 
-.ytd-1{
-  border: #1414b4 1px solid;
-  width: 332px;
-  height: 287px;
+.ytd{
+  /* background: #1414b4; */
+  width:340px;
+  height: 288px;
+  margin: 0 8px 36px 8px;
 }
 
 .yt-img{
   width: 100%;
-  height: 187px;
-  border: #eded13 1px solid;
+  /* height: 188px; */
+  /* border: #eded13 1px solid; */
+}
+
+.yt-img img{
+  width: 100%;
+  border-radius: 15px;
 }
 
 .yt-down{
   width: 100%;
   height: 100px;
-  border: #d713ed 1px solid;
+  /* background: #d713ed; */
+  
 }
 
 .yt-logo{
-  width: 15%;
-  height: 100px;
-  border: #d713ed 1px solid;
-}
-.yt-text{
-  width: 85%;
-  height: 100px;
-  border: #ed6313 1px solid;
+  float: left;
+  width: 36px;
+  height: 36px;
+  /* background: #f8c7cd; */
 }
 
+.yt-logo img{
+  width: 100%;
+  height: 100%;
+  margin: 12px 12px 0 0 ;
+}
+.yt-text{
+  float: right;
+  width: 85%;
+  height: 100px;
+  /* background: #e6ed13; */
+}
+
+.yt-text h3{
+  width: 263px;
+  height: 45px;
+  /* background: #1fbb25; */
+  margin: 12px 0 4px 0;
+  overflow:hidden;
+  font-weight: 400;
+}
+
+.yt-text a{
+  text-decoration:none;
+  font-size: 12px;
+}
+
+.yt-text p{
+  font-size: 12px;
+}
